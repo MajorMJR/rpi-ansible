@@ -3,7 +3,7 @@ FROM resin/rpi-raspbian:jessie
 MAINTAINER Mitch Roote <mitch@r00t.ca>
 
 # Update Repo
-RUN apt-get -y update #FUCK
+RUN apt-get -y update 
 
 # Install packages
 RUN apt-get --no-install-recommends -y install python3 git python-pip python3-dev python-dev build-essential
